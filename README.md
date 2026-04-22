@@ -11,7 +11,7 @@ Authors: Yuedi Zhang, [Shuanghao Bai](https://baishuanghao.github.io/), [Wanqi Z
 ## 🎉 Highlights
 
 <div align="center">
-  <img src="./method.jpg" alt="Logo" width="98%">
+  <img src="./method.jpg" alt="Method" width="98%">
 </div>
 
 > **<p align="justify"> Abstract:** *Domain generalization (DG) aims to train models on related source domains that generalize to unseen out-of-distribution target domains. Prompt tuning of large pre-trained vision-language models (VLMs) improves DG but lacks domain-specific features due to fixed prompt inputs. Recent generation methods have addressed this limitation by dynamically gener ating instance-specific and domain-specific prompts, but suffer from Prompt Variability: the same input often yields different and suboptimal prompts across different random seeds. To address this, we introduce negative learning into prompt generation and propose Dual-Path Stable Soft Prompt Generation (DPSPG), a transformer-based framework via a complementary prompt generator producing negative prompts to reduce misleading information. Theoretical and empirical analyses confirm that negative learning increases the effective margin and lowers an upper bound on the gradient norm, yielding more robust prompts. Extensive experiments on five DG benchmark datasets show that DPSPG consistently outperforms state-of-the-art methods while maintaining prompt stability.* </p>
